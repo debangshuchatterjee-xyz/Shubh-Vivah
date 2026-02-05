@@ -1,0 +1,179 @@
+body {
+
+  background: #c2b8b8;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  color: #ff4d6d;
+}
+
+.buttons a, .back {
+  display: inline-block;
+  margin: 15px;
+  padding: 12px 20px;
+  background: #ff4d6d;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.buttons a:hover, .back:hover {
+  background: white;
+  color: black;
+}
+
+.gallery img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255,77,109,0.7);
+}
+
+.timeline {
+  list-style: none;
+  font-size: 1.2rem;
+}
+body {
+  background: black;
+  color: #fff5cc;
+  font-family: "Times New Roman", serif;
+  text-shadow: 1px 1px 2px black;
+}
+<div class="vhs">
+
+.vhs {
+  filter: contrast(1.2) brightness(0.9) saturate(1.4);
+  animation: flicker 0.15s infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.97; }
+  100% { opacity: 1; }
+}
+</div>
+.blessings-box {
+  margin: 40px auto;
+  padding: 30px;
+  max-width: 600px;
+  background: #d0c2c2;
+  border: 3px double gold;
+  border-radius: 15px;
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.4);
+  font-family: "Times New Roman", serif;
+}
+
+.blessings-box p {
+  margin: 20px 0;
+  font-size: 1.15rem;
+  color: #ffe599;
+}
+.scroll-wrapper {
+  margin: 40px auto;
+  width: 70%;
+  background: #e6d8d8;
+  border: 4px solid gold;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 
+    0 0 20px rgba(255,215,0,0.6),
+    inset 0 0 10px rgba(255,215,0,0.4);
+}
+
+.scroll-wrapper p {
+  font-size: 1.4rem;
+  color: #ffe599;
+  font-family: "Times New Roman", serif;
+  text-align: center;
+}
+.single-video {
+  margin: 40px auto;
+  padding: 25px;
+  width: fit-content;
+  background: #e9dbdb;
+  border: 4px solid gold;
+  border-radius: 18px;
+  box-shadow: 0 0 30px rgba(255,215,0,0.6);
+}
+
+.single-video video {
+  border-radius: 12px;
+  border: 3px solid #ffd966;
+  filter: contrast(1.1) saturate(1.3);
+}
+
+.caption {
+  margin-top: 15px;
+  color: #ffe599;
+  font-family: "Times New Roman", serif;
+  font-size: 1.2rem;
+}
+/* GLOBAL CRINGE BACKGROUND */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* FULL SCREEN PHOTO */
+body {
+  background: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("pitching.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+
+
+/* BLACK BASE LAYER (keeps contrast) */
+
+/* SLOW VHS-STYLE ZOOM */
+@keyframes cringeZoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes cringeZoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+/* OPAQUE HOMEPAGE BOX 
+.home-box {
+  background: rgba(255, 255, 255, 0.85);
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* FULL SCREEN BACKGROUND IMAGE */
+body {
+  background-image: url("rimiya2.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgb(242, 223, 223); /* fallback */
+  color: white;
+}
